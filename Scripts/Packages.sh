@@ -69,6 +69,11 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
+UPDATE_PACKAGE "istore" "linkease/istore" "main"
+UPDATE_PACKAGE "nas" "linkease/nas-packages" "master"
+UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
+#UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"
+
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
 fi
@@ -108,5 +113,5 @@ UPDATE_VERSION() {
 }
 
 #UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
-UPDATE_VERSION "sing-box"
+UPDATE_VERSION "sing-box" "true"
 UPDATE_VERSION "tailscale"
