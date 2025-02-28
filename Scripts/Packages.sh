@@ -72,7 +72,7 @@ UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 UPDATE_PACKAGE "istore" "linkease/istore" "main"
 UPDATE_PACKAGE "nas" "linkease/nas-packages" "master"
 UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
-UPDATE_PACKAGE "fileassistant" "clutchJoe/luci-app-fileassistant" "master"
+#UPDATE_PACKAGE "fileassistant" "clutchJoe/luci-app-fileassistant" "master"
 #UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
