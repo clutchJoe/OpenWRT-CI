@@ -75,7 +75,7 @@ UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
 #UPDATE_PACKAGE "fileassistant" "clutchJoe/luci-app-fileassistant" "master"
 #UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"
 
-UPDATE_PACKAGE "daerepo" "QiuSimons/luci-app-daed" "master"
+UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
