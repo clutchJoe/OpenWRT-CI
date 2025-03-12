@@ -76,13 +76,12 @@ UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
 #UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"
 
 UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
+# follow from https://github.com/QiuSimons/luci-app-daed
+mkdir -p libcron && wget -O libcron/Makefile https://raw.githubusercontent.com/immortalwrt/packages/refs/heads/master/libs/libcron/Makefile
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
 fi
-
-# follow from https://github.com/QiuSimons/luci-app-daed?tab=readme-ov-file
-mkdir -p libcron && wget -O libcron/Makefile https://raw.githubusercontent.com/immortalwrt/packages/refs/heads/master/libs/libcron/Makefile
 
 #更新软件包版本
 UPDATE_VERSION() {
