@@ -22,7 +22,7 @@ CONFIG_PACKAGE_kmod-lib-zstd=y
 
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=y
-CONFIG_PACKAGE_luci-app-nikki=y
+CONFIG_PACKAGE_luci-app-nikki=n
 #增加插件
 CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG_PACKAGE_luci-app-upnp=n
@@ -50,7 +50,7 @@ CONFIG_PACKAGE_luci-app-socat=y
 #CONFIG_PACKAGE_luci-app-omcproxy=y
 #CONFIG_PACKAGE_luci-app-onliner=y
 CONFIG_PACKAGE_luci-app-homebox=y
-CONFIG_PACKAGE_luci-app-quickstart=y
+CONFIG_PACKAGE_luci-app-quickstart=n
 #CONFIG_PACKAGE_luci-app-istorex=n
 #CONFIG_PACKAGE_luci-app-store=n
 #删除插件
