@@ -34,10 +34,10 @@ jobs:
       matrix:
         CONFIG: [MEDIATEK]
         # CONFIG: [MEDIATEK, ROCKCHIP, X86]
-        # SOURCE: [VIKINGYFY/immortalwrt]
-        # BRANCH: [owrt]
-        SOURCE: [ThermalEng/immortalwrt]
-        BRANCH: [master]
+        SOURCE: [VIKINGYFY/immortalwrt]
+        BRANCH: [owrt]
+        # SOURCE: [ThermalEng/immortalwrt]
+        # BRANCH: [master]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
