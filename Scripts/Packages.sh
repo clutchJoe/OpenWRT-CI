@@ -80,7 +80,7 @@ UPDATE_PACKAGE "v2ray-geodata" "sbwml/v2ray-geodata" "master"
 
 #UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
 # follow from https://github.com/QiuSimons/luci-app-daed
-#mkdir -p libcron && wget -O libcron/Makefile https://raw.githubusercontent.com/immortalwrt/packages/refs/heads/master/libs/libcron/Makefile
+mkdir -p libcron && wget -O libcron/Makefile https://raw.githubusercontent.com/immortalwrt/packages/refs/heads/master/libs/libcron/Makefile
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
