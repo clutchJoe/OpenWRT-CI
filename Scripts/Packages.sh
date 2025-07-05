@@ -78,7 +78,7 @@ UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"
 UPDATE_PACKAGE "dae" "sbwml/luci-app-dae" "main"
 UPDATE_PACKAGE "v2ray-geodata" "sbwml/v2ray-geodata" "master"
 
-#UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
+UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
 # follow from https://github.com/QiuSimons/luci-app-daed
 mkdir -p libcron && wget -O libcron/Makefile https://raw.githubusercontent.com/immortalwrt/packages/refs/heads/master/libs/libcron/Makefile
 
